@@ -121,9 +121,6 @@ var writePassword = () => {
 
   passwordText.value = password;
 };
-
-
-
 generateBtn.addEventListener("click", writePassword);
 
 
@@ -140,73 +137,5 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-// var generateBtn = document.querySelector("#generate");
-// var UppercaseLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-// var LowercaseLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-// var Numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
-// var specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "?"];
 
-// var randomUppercase
-// var randomLowercase
-// var randomNumbers
-// var randomSpecialCharacters
-
-// var randomLowercase = function () {
-//   return LowercaseLetters[Math.floor(Math.random() * LowercaseLetters.length)];
-// }
-
-// var randomUppercase = function () {
-//   return UppercaseLetters[Math.floor(Math.random() * UppercaseLetters.length)];
-// }
-
-// var randomNumbers = function () {
-//   return Numbers[Math.floor(Math.random() * Numbers.length)];
-// }
-
-// var randomSpecialCharacters = function () {
-//   return specialCharacters[Math.floor(Math.random() * specialCharacters.length)];
-// }
-
-
-
-
-
-
-// function generatePassword () {
-
-//   // 1. Prompt the user for the password criteria.//
-//   window.prompt("How many characters would your like your password to contain?");
-
-//   window.prompt("Click OK if you would like to include Uppercase characters");
-
-//   window.prompt("Click OK if you would like to include Lowercase characters");
-
-//   window.prompt("Click OK if you would like to include Special characters");
-
-//   window.prompt("Click OK if you would like to include Numbers");
-  
-//   return;
-// }
-//    A. Password Length between 8-28 characters.//
-
-
- 
-  //    B. Uppercase, Lowercase, Numbers and Special characters.//
-  // 2. Vallidate the imput.//
-  // 3. Generate password based on criteria.//
-  // 4. display password to the page.//
-
-
-
-// Write password to the #password input
-// function writePassword() {
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-
-//   passwordText.value = password;
-
-// }
-
-// Add event listener to generate button
- generateBtn.addEventListener("click", writePassword);
 
